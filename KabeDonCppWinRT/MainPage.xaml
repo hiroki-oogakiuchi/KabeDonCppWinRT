@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="KabeDonCppWinRT.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KabeDonCppWinRT"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Image x:Name="image" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Source="/Assets/Image/Claudia1.png" Tapped="Image_Tapped"/>
+        <MediaElement x:Name="mediaElement" HorizontalAlignment="Left" Height="100" Margin="320,283,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="button" Content="アタック！" FontSize="64" BorderBrush="Red" Foreground="Red" HorizontalAlignment="Center" Click="Button_Click"/>
+    </Grid>
+</Page>
