@@ -5,7 +5,6 @@
 using namespace winrt;
 using namespace Windows::UI::Xaml;
 
-#include <sstream>
 #include "Area.h"
 using namespace std;
 using namespace winrt::Windows::Foundation;
